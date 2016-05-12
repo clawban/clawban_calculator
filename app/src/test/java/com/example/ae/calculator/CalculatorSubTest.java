@@ -37,9 +37,10 @@ public class CalculatorSubTest {
     @Parameters
     public static List<Object[]> data(){
         return Arrays.asList(new Object[][]{
-            {5, 9, -4},
-            {10, 4, 6},
-            {9, 0, 9}
+            {5, 9, -4.0},
+            {10, 4, 6.0},
+            {9, 0, 9.0},
+            {8, 4, 4.0}
         });
     }
 
